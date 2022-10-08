@@ -24,7 +24,10 @@ public class TestStudent {
                 // Если вытащили значение меньшее — передвигаем больший элемент дальше
                 if (value < arrS.get(i).iDNumber) {
                     Collections.swap(arrS, i+1, i);
-                } else {
+                }
+
+
+                else {
                     // Если вытащенный элемент больше — останавливаемся
                     break;
                 }
